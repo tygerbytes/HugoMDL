@@ -50,6 +50,7 @@
     {{- if and .IsPage (eq .Type "presentation") }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/remark.css"/>
     {{- end }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css"/>
 
     {{- partial "extra-header.html" . }}
 
